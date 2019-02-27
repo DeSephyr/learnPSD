@@ -1,0 +1,73 @@
+body {
+    background: #FFF;
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, a, img, form, button {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+   
+}
+
+.header {
+    background: #e9e9e9;
+}
+
+.nav {
+    padding-top: 36px;
+    display: flex;  
+    align-items: center; 
+}
+
+.navList {
+     margin-right: 0 auto;
+}
+
+.navList ul {
+    display: flex;
+
+}
+
+.navList ul li a {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 30px;
+    color: #191919;
+    text-transform: uppercase   
+}
+
+.navList .active,
+.navList li a:hover{
+    color: #1ecbc6;
+    transition: all 0.5s ease;
+  
+}
+
+
+
+.logo {
+    margin-left: 0;
+    margin-right: 522px;
+}
