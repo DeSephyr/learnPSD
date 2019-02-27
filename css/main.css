@@ -66,8 +66,39 @@ ul, li {
 }
 
 
-
 .logo {
     margin-left: 0;
     margin-right: 522px;
+}
+
+.banner h1 {
+    font-size: 38px;
+    text-align: right; 
+    margin-right: 30px;
+}
+
+.banner p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: #8a8a8a;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.buttonLink {
+    color: #FFF;
+    background: #10c9c3;
+    font-size: 12px;
+    margin-right: 0 auto;
+    margin-left: 680px;
+    width: 180px;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    
+}
+
+.buttonLink:hover{
+    background: #18a7a2;
 }
