@@ -26,7 +26,7 @@ ul, li {
 }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
    
 }
@@ -54,6 +54,7 @@ ul, li {
     font-weight: bold;
     font-size: 12px;
     margin-left: 30px;
+    letter-spacing: 0.1em;
     color: #191919;
     text-transform: uppercase   
 }
@@ -71,34 +72,89 @@ ul, li {
     margin-right: 522px;
 }
 
+.banner {
+    padding: 0 30px 202px 665px;
+}
+
 .banner h1 {
     font-size: 38px;
-    text-align: right; 
-    margin-right: 30px;
+    text-align: left; 
+    margin: 180px 0 0 0;
+    letter-spacing: 0.01em;
 }
 
 .banner p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 18px;
     color: #8a8a8a;
-    text-align: right;
-    margin-right: 30px;
+    text-align: left;
+    margin: 0;
+    margin-top: 35px;
+    letter-spacing: 0.005em;
+    line-height: 28px;
 }
 
 .buttonLink {
     color: #FFF;
     background: #10c9c3;
     font-size: 12px;
-    margin-right: 0 auto;
-    margin-left: 680px;
     width: 180px;
     display: block;
     text-align: center;
     padding: 20px 0;
     transition: all 0.5s ease;
+    text-transform: uppercase;
+    margin: 35px 0 0 0;
+    letter-spacing: 0.1em;
     
 }
 
 .buttonLink:hover{
     background: #18a7a2;
+}
+
+.aboutUs {
+    background: #FFF;
+    padding-bottom: 90px;
+}
+
+.aboutUs h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 96px 0 36px 0;
+    letter-spacing: 0.01em;
+}
+
+.aboutUs p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #787878;
+    letter-spacing: 0.005em;
+    line-height: 24px;
+    
+}
+
+.signature {
+    margin: 30px 0 0 475px;
+}
+
+.skills {
+    background-color: #f8f9f9;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill{
+    width: 500px;
+    height: 570px;   
+    
+}
+
+.forImg {
+    width: 500px;
+    height: 570px;
+    background-color: #e9e9e9;
 }
